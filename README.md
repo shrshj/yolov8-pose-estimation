@@ -68,12 +68,13 @@ Follow the instructions provided on the page [here](https://docs.docker.com/engi
 ### Install COCO Annotator
 1. Download the COCO Annotator GitHub repository from [here](https://github.com/jsbroks/coco-annotator).
 2. Open the downloaded folder.
-3. (For windows) inside that folder open a “cmd” or “terminal” and put this command:
+3. a. (For windows) inside that folder open a “cmd” or “terminal” and put this command:
 ```bash
 docker-compose up
 ```
-3. (For ubuntu) inside that folder open a “terminal” and put this command:
+3. b. (For ubuntu) inside that folder open a “terminal” and put this command:
 ```bash
 sudo docker-compose up
 ```
+
 
