@@ -46,3 +46,33 @@ You can use any type of images that match your dataset requirements. These image
 
 This concludes the first step of the tutorial. In the next steps, we will prepare and annotate the dataset, configure YOLOv8, and train the model for pose detection.
 
+## Step 2: Setting Up COCO Annotator
+
+In this step, we will set up the COCO Annotator, which is a powerful tool for annotating images with keypoint detection and visibility options. This tool will be used for annotating the images you collected in the previous step.
+
+### Install Docker
+
+#### On Ubuntu:
+Follow the instructions provided on the page [here](https://docs.docker.com/engine/install/ubuntu/) until the end of the installation step.
+
+#### On Windows:
+1. Download the Docker Desktop installer file from [here](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
+2. Install Docker Desktop.
+3. Run the Docker Desktop program to ensure it is running properly.
+
+**Note**: If you encounter the "WSL version is too old" error on Windows, follow the tutorial provided [here](https://stackoverflow.com/questions/67168809/docker-desktop-requires-a-newer-wsl-kernel-version-on-windows). After following the steps in the tutorial, open the command prompt (CMD) and run the following command to update WSL:
+   ```bash
+   wsl --update
+   ```
+
+### Install COCO Annotator
+1. Download the COCO Annotator GitHub repository from [here](https://github.com/jsbroks/coco-annotator).
+2. Open the downloaded folder.
+3. For windows inside that folder open a “cmd” or “terminal” and put this command:
+```bash
+docker-compose up
+```
+For ubuntu inside that folder open a “terminal” and put this command:
+```bash
+sudo docker-compose up
+```
