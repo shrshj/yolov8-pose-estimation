@@ -25,7 +25,7 @@ cd custom-yolov8-pose-detection
 3. Modify the `query_list` in the `crawler.py` script with your desired keywords. For example:
 ```python
 query_list = ["violin", 'violinist ', 'play violin', 'violin instrument']
-
+```
 
 Run the crawler script to download images:
 python crawler.py
