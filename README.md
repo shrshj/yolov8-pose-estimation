@@ -21,12 +21,14 @@ pip install beautifulsoup4
 ### Usage
 
 1. Clone this repository to your local machine:
-```python
+```bash
 git clone https://github.com/your-username/custom-yolov8-pose-detection.git 
 ```
 
 2. Navigate to the project folder:
+```bash
 cd custom-yolov8-pose-detection
+```
 
 3. Modify the `query_list` in the `crawler.py` script with your desired keywords. For example:
 ```python
