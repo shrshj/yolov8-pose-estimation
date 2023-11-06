@@ -31,11 +31,10 @@ docker-compose up
 ```bash
 sudo docker-compose up
 ```
-
 4. The output should be something like this on both operating systems.
 <br>(img 2) <br>
 
+5. The command above will pull the latest stable image from Docker Hub, which is pre-compiled with all the necessary dependencies. You can access the COCO Annotator instance by opening http://localhost:5000/ in your web browser while steps 3a or 3b are running. The initial page will look like the screenshot below. If it's your first time opening it after installation, you will only see the 'Register' tab. If you have already created an account, you will also have a 'Login' tab.
 
-5. The command above will pull the latest stable image from dockerhub, which pre-complied with all dependencies. The instance can be found at http://localhost:5000/. By opening http://localhost:5000/ in your browser, the first page is as below. if it is the first time opening it after installation you will only have the Register tab. But because I already created an account I also have a Login tab.
-
+   
 <br>(img 3) <br>
