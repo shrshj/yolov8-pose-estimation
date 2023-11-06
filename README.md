@@ -61,7 +61,7 @@ Follow the instructions provided on the page [here](https://docs.docker.com/engi
 2. Install Docker Desktop.
 3. Run the Docker Desktop program to ensure it is running properly.
 
-**Note**: If you encounter the "WSL version is too old" error on Windows, follow the tutorial provided [here](https://stackoverflow.com/questions/67168809/docker-desktop-requires-a-newer-wsl-kernel-version-on-windows). After following the steps in the tutorial, open the command prompt (CMD) and run the following command to update WSL:
+**Note**: If you encounter the "WSL version is too old" error on Windows, follow the tutorial provided [here](https://stackoverflow.com/questions/67168809/docker-desktop-requires-a-newer-wsl-kernel-version-on-windows). After following the steps in the tutorial, open the command prompt and run the following command to update WSL:
    ```bash
    wsl --update
    ```
