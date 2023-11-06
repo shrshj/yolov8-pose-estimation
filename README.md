@@ -86,3 +86,13 @@ sudo docker-compose up
 
    
 <br>(img 3) <br>
+
+<br><br>
+
+To Do:
+- Put the images 1 , 2 and 3
+- How to annotate data in coco annotator (In a video maybe)
+- Install Yolo
+- Yolo config files settings
+- Train a model
+- Infer
