@@ -13,11 +13,17 @@ Before you begin, make sure you have the following prerequisites installed on yo
 - Python 3.x
 - Required Python packages (requests, BeautifulSoup) which can be installed using pip:
 
+```python
+pip install requests
+pip install beautifulsoup4
+```
 
 ### Usage
 
 1. Clone this repository to your local machine:
+```python
 git clone https://github.com/your-username/custom-yolov8-pose-detection.git 
+```
 
 2. Navigate to the project folder:
 cd custom-yolov8-pose-detection
@@ -27,8 +33,10 @@ cd custom-yolov8-pose-detection
 query_list = ["violin", 'violinist ', 'play violin', 'violin instrument']
 ```
 
-Run the crawler script to download images:
+4. Run the crawler script to download images:
+```python
 python crawler.py
+```
 
 The script will fetch image URLs based on the provided keywords and download the images to the 'images' folder.
 
